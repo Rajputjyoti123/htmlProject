@@ -1,0 +1,30 @@
+25/dec/2023    monday...  
+       doc html
+             html(root element)
+   head(child elemnts)               body
+title    meta             (subchild elements)div  form p
+
+je head madhi kelay te top la yet
+and je body amdhi define kelay te web page var disat
+title meta are elements for head...
+div form paragraph are elements foro body tag..
+<div >
+tag is for division 
+div tag ocuupy whole row 
+and span tag occupy only text(content )..
+bolck elements and inline elements
+block elements:=
+     block elements is nothing but anything that occupy whole row of the web page
+eg. div tag
+inline elements:=
+    occupy space thatb content provided....
+    eg. span tag
+css:=
+color codes:=
+   <p style="color:red">this is red name</p>
+
+  
+
+
+
+

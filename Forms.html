@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form tags
+    - it is use to colect users input
+    -it is represented by <form> tag containing diff input ttypes in it
+    - action attribute helps the form to redirect tha page to another..
+
+    -->
+    <!-- input type can be
+    -text,number,date,password,email,color,url,time,dateTime,radio,checkButtons
+    buttons-submit,reset
+    -->
+   
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter name">
+        <br>
+        <label for="num">Phone number</label>
+        <input type="number" id="num" placeholder="enter number" min="10" max="10000000000">
+        <br>
+        <label for="date">Date of birth</label>
+        <input type="date" id="date" placeholder="enter date">
+        <br>
+        <label for="pass">Passsword</label>
+        <input type="password" id="pass" required placeholder="enter password">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="enter email">
+        <br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+        <!-- giving same name="gender" coz we have to select only one  -->
+        <br><br>
+        <label>Languages:</label>
+        <input type="checkbox" name="Language" id="eng" value="english">
+        <label for="eng">English</label>
+        <input type="checkbox" name="Language" checked id="hin" value="Hindi">
+        <label for="hin">Hindi</label>
+        <input type="checkbox" name="Language" id="mar" value="marathi">
+        <label for="mar">Marathi</label>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
